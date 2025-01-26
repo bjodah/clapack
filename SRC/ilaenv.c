@@ -242,9 +242,9 @@ L10:
     if (! (cname || sname)) {
 	return ret_val;
     }
-    s_copy(c2, subnam + 1, (ftnlen)1, (ftnlen)2);
-    s_copy(c3, subnam + 3, (ftnlen)1, (ftnlen)3);
-    s_copy(c4, c3 + 1, (ftnlen)1, (ftnlen)2);
+    s_copy(c2, subnam + 1, (ftnlen)2, (ftnlen)2);
+    s_copy(c3, subnam + 3, (ftnlen)3, (ftnlen)3);
+    s_copy(c4, c3 + 1, (ftnlen)2, (ftnlen)2);
 
     switch (*ispec) {
 	case 1:  goto L50;
