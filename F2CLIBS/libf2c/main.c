@@ -104,6 +104,7 @@ char **xargv;
 #endif
 
  int
+ __attribute__((weak))
 #ifdef KR_headers
 main(argc, argv) int argc; char **argv;
 #else
